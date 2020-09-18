@@ -1,0 +1,10 @@
+C:\Users\wende\source\repos\App_Form\App_Form\bin\Debug\App_Form.exe.config
+C:\Users\wende\source\repos\App_Form\App_Form\bin\Debug\App_Form.exe
+C:\Users\wende\source\repos\App_Form\App_Form\bin\Debug\App_Form.pdb
+C:\Users\wende\source\repos\App_Form\App_Form\obj\Debug\App_Form.csprojAssemblyReference.cache
+C:\Users\wende\source\repos\App_Form\App_Form\obj\Debug\App_Form.Form1.resources
+C:\Users\wende\source\repos\App_Form\App_Form\obj\Debug\App_Form.Properties.Resources.resources
+C:\Users\wende\source\repos\App_Form\App_Form\obj\Debug\App_Form.csproj.GenerateResource.cache
+C:\Users\wende\source\repos\App_Form\App_Form\obj\Debug\App_Form.csproj.CoreCompileInputs.cache
+C:\Users\wende\source\repos\App_Form\App_Form\obj\Debug\App_Form.exe
+C:\Users\wende\source\repos\App_Form\App_Form\obj\Debug\App_Form.pdb
