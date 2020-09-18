@@ -27,21 +27,23 @@ namespace App_Form
                         var inicio = txtDistanciaInicial.Text;
                         var final = txtDistanciaFinal.Text;
                         var distanciaMaxima = 3;
+                        var distanciaPoste = 10;
 
                         var contador = true;
 
                         var resultado = (Convert.ToDecimal(inicio) + Convert.ToDecimal(final)) / distanciaMaxima;
+                        var totalPostes = ((Convert.ToDecimal(inicio) + Convert.ToDecimal(final)) / 10) + 2;
                         if (resultado > 3)
                         {
                             var somar = 4;
                             while (contador == true)
                             {
-                                resultado = (Convert.ToDecimal(inicio) + Convert.ToDecimal(final)) / somar;
+                                resultado = (Convert.ToInt32(inicio) + Convert.ToInt32(final)) / somar;
                                 if (resultado <= 3) { contador = false; } else { somar++; }
                             }
                         }
 
-                        lblResultado.Text = "Distância entre pilares: " + resultado;
+                        lblResultado.Text = "Distância entre pilares: " + resultado + " | Total de Pilares Reforçados: " + totalPostes;
                         lblResultado.Visible = true;
                     }
                     else
